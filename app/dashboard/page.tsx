@@ -21,8 +21,8 @@ export default function DashboardPage() {
 
   return (
     <div className={styles.dashboard} >
-      <h1>Welcome to the Dashboard</h1>
-      <h2>Hello, {user.name.first} {user.name.last}!</h2>
+      <h1>Welcome to your Dashboard</h1>
+      <h2>{user.name.first} {user.name.last}</h2>
       <Link href="/auth" className={styles.backLink} >
         ← back to Login page
       </Link>

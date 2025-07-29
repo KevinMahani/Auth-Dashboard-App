@@ -1,0 +1,36 @@
+.home {
+  margin:20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;     
+  padding: 1rem;
+
+  h1 {
+    font-size: 40px;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #1b1b1b;
+    margin-top: 0.5rem;
+  }
+
+  button {
+  padding: 0.6rem 1.2rem;
+    background-color: #2a2c2c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 1rem;
+
+    &:hover {
+      background-color: #3c3e41;
+    }
+  }
+}
