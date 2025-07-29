@@ -1,0 +1,36 @@
+.dashboard {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 28px;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #1b1b1b;
+    margin-top: 0.5rem;
+  }
+
+
+}
+
+  .backLink {
+  font-size: 12px;
+  color: #9a9c9d;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    color: #1b1b1b;
+    text-decoration: underline;
+  }
+}
+
+
